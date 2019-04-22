@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="My Simple Web Agenda">
+    <meta name="author" content="Stefano Balzarotti">
+
+    <link href="Styles/Site.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="Scripts/myagenda-datamodel.js" defer></script>
+    <script type="text/javascript" src="Scripts/myagenda-storage.js" defer></script>
+    <script type="text/javascript" src="Scripts/myagenda-ui.js" defer></script>
+    <script type="text/javascript" src="Scripts/myagenda-controller.js" defer></script>
+
+    <title>My Simple Web Agenda</title>
+</head>
+<body id="page-top">
+    <header>
+        <h1>My Simple Web Agenda</h1>
+    </header>
+    <aside>
+        <h2>Createa a new contact</h2>
+        <form method="get" id="newContactForm" action="#new-contact">
+            <fieldset>
+                <label for="contact-name">Contact Name</label>
+                <input type="text" name="contact-name" />
+            </fieldset>
+            <fieldset>
+                <label for="contact-company">Company</label>
+                <input type="text" name="contact-company" />
+            </fieldset>
+            <fieldset>
+                <label for="contact-name">Phone Number</label>
+                <input type="tel" name="contact-phone" />
+            </fieldset>
+            <fieldset>
+                <label for="contact-name">E-Mail</label>
+                <input type="email" name="contact-email" />
+            </fieldset>
+            <fieldset>
+                <label for="contact-name">Web Site</label>
+                <input type="url" name="contact-website" />
+            </fieldset>
+            <fieldset>
+                <label for="contact-notes">Notes</label>
+                <textarea name="contact-notes"></textarea>
+            </fieldset>
+            <input type="submit" value="Add" />            
+        </form>
+    </aside>    
+    <main>
+        <h2>List of contacts</h2>
+        <div id="contacts-list"></div>
+    </main>
+</body>
+</html>
+

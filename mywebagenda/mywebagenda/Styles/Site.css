@@ -1,0 +1,52 @@
+﻿body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#newContactForm {
+    border: 1px solid gray;
+    width: 400px;
+}
+
+#newContactForm label {
+    display: inline-block;
+    width: 120px;
+}
+
+#newContactForm input, form textarea {
+    width: 200px;
+}
+
+#newContactForm input[type=submit] {
+    margin: 10px;
+}
+
+input[type=button]
+{
+    margin: 2px;
+}
+
+fieldset {
+    border-width: 0;
+}
+
+.myagenda-contact{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+dt
+{
+    font-weight: bold;
+}
